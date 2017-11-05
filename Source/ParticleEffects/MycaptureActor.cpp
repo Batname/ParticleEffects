@@ -49,7 +49,46 @@ AMycaptureActor::AMycaptureActor()
 	}
 
 	SceneCaptureComponent2D->SetupAttachment(RootComponent);
-	
+
+	//// Flags
+	//{
+	//	FEngineShowFlagsSetting AmbientCubemap;
+	//	AmbientCubemap.Enabled = true;
+	//	AmbientCubemap.ShowFlagName = "AmbientCubemap";
+
+	//	FEngineShowFlagsSetting AmbientOcclusion;
+	//	AmbientOcclusion.Enabled = true;
+	//	AmbientOcclusion.ShowFlagName = "AmbientOcclusion";
+
+	//	FEngineShowFlagsSetting AntiAliasing;
+	//	AntiAliasing.Enabled = true;
+	//	AntiAliasing.ShowFlagName = "AntiAliasing";
+
+	//	FEngineShowFlagsSetting PostProcessing;
+	//	PostProcessing.Enabled = true;
+	//	PostProcessing.ShowFlagName = "PostProcessing";
+
+	//	FEngineShowFlagsSetting PostProcessMaterial;
+	//	PostProcessMaterial.Enabled = true;
+	//	PostProcessMaterial.ShowFlagName = "PostProcessMaterial";
+
+	//	FEngineShowFlagsSetting TemporalAA;
+	//	TemporalAA.Enabled = true;
+	//	TemporalAA.ShowFlagName = "TemporalAA";
+
+
+	//	TArray<FEngineShowFlagsSetting> EngineShowFlagsSetting =
+	//	{
+	//		AmbientCubemap, AmbientOcclusion, AntiAliasing,
+	//		PostProcessing, PostProcessMaterial, TemporalAA
+
+	//	};
+	//	SceneCaptureComponent2D->ShowFlagSettings = EngineShowFlagsSetting;
+
+	//	FEngineShowFlags EngineShowFlags(EShowFlagInitMode::ESFIM_Game);
+	//	EngineShowFlags.EnableAdvancedFeatures();
+	//	SceneCaptureComponent2D->ShowFlags = EngineShowFlags;
+	//}
 
 }
 
